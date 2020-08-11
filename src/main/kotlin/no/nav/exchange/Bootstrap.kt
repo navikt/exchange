@@ -36,6 +36,6 @@ fun Application.setupHttpServer(applicationStatus: ApplicationStatus) {
                 .response()
         log.info { "Request: ${result.first}" }
         log.info { "Response: ${result.second}" }
-        log.info { result.third.component2() }
+        log.info { result.third.component2()?.message ?: "Error empty" }
     }
 }
