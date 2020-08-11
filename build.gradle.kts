@@ -50,6 +50,8 @@ dependencies {
     implementation ("io.ktor:ktor-server-netty:$ktorVersion")
     implementation ("io.ktor:ktor-client-core:$ktorVersion")
     implementation ("io.ktor:ktor-client-apache:$ktorVersion")
+    implementation("io.ktor:ktor-client-json:$ktorVersion")
+    implementation("io.ktor:ktor-client-jackson:$ktorVersion")
     implementation ("org.apache.commons:commons-lang3:$apacheCommonsVersion")
     implementation ("net.logstash.logback:logstash-logback-encoder:$logstashEncoderVersion")
     implementation ("ch.qos.logback:logback-classic:$logbackVersion")
